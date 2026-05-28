@@ -1,0 +1,11 @@
+¿Porque es importante validar los datos que ingresa un usuario?
+#Para evitar que si el usuario ingresa un caracter que nuestro codigo no permite, nuestro programa no falle.
+
+¿Que hace strip y en que se diferencia de split?
+#El strip nos permite eliminar caracteres al principio y final de una cadena de texto, en cambio el split nos convierte una cadena de texto en una lista al separarlo por un delimitante, ya sea un caracter o espacios vacios
+
+¿Para que puede servir count cuando una linea tiene datos separados por comas o por punto y coma?
+#para validar cuantos datos hay en una linea, ya que si contamos las comas, sabemos cuantos elementos hay, por ejemplo, si necesitamos nombre,apellido y edad, sabemos que van a tener que haber 2 comas.
+
+¿Que problema pueden traer los espacios de mas al principio o al final de un dato?
+#te puede romper el codigo,ya que por ejemplo "Ana" y " Ana" quizas nosotros lo vemos bien, pero para python hay otro caracter ahi, lo que perjudica en todo el codigo.

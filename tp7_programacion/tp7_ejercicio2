@@ -1,0 +1,5 @@
+Este codigo nos pasa de una cadena de texto a variables individuales, utiliza split para separarla en partes y strip para eliminar los espacios vacios. Por ultimo verifica si la nota es un numero antes de convertirla a entero.
+ 1.En (partes) queda guardada una lista en este formato [" mara ", " programacion ", " ocho "]
+ 2.Se utiliza strip antes de capitalize ya que si no se hace esto, python toma el espacio vacio como parte del nombre y no lo capitaliza correctamente, es decir, quedaria como " mara " en vez de "Mara". 
+ 3.Se valida que la nota sea un numero al utilizar isnumeric, asi de esta forma, si la nota no es un numero, se imprime "la nota no es valida" en lugar de tirar error al tratar convertirla en un entero.
+ 4.Si la nota fuera "ocho", el programa imprime "la nota no es valida", porque "ocho" no es un numero.
